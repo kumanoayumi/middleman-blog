@@ -6,11 +6,12 @@
 
 activate :blog do |blog|
   Time.zone = "Tokyo"
-  # blog.prefix = "blog"
+  blog.prefix = "blog"
   blog.permalink = ":year/:month/:day/:title.html"
   # blog.sources = ":year-:month-:day-:title.html"
   # blog.taglink = "tags/:tag.html"
-  blog.layout = "layout"
+  # blog.layout = "layout"
+  page "blog/*", :layout => :article_layout
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
