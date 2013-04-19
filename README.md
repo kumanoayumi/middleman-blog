@@ -1,20 +1,20 @@
 middleman-blog
 ==============
-#Install middleman
+## Install middleman
 
 ```
 $ gem install middleman
 ```
 
 
-#Init
+## Init
 
 ```
 $ middleman init MY_BLOG_PROJECT --template=blog
 ```
 
 
-#Start server
+## Start server
 
 ```
 $ middleman
